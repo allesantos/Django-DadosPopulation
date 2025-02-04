@@ -1,6 +1,6 @@
 # 🌍 Django - População Mundial em Tempo Real
 
-<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-YouTube-Downloader/downloader1.png">
+<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-population/population.png">
 
 ---
 
