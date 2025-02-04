@@ -1,5 +1,21 @@
 # 🌍 Django - População Mundial em Tempo Real
 
+<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-YouTube-Downloader/downloader1.png">
+
+---
+
+## 📌 Índice
+- [Descrição](#Descrição)
+- [Recursos](#Recursos)
+- [Tecnologias Utilizadas](#Tecnologias)
+- [Pré-requisitos](#Pré-requisitos)
+- [Instalação](#Instalação)
+- [Uso](#Uso)
+- [Contribuição](#Contribuição)
+- [Licença](#Licença)
+
+---
+
 ## 📌 Descrição  
 Este projeto é uma aplicação web desenvolvida em **Django** que exibe a população mundial em tempo real. Ele coleta dados diretamente do site **Worldometer**, utilizando **Selenium** para web scraping, e exibe estatísticas como população atual, nascimentos, mortes e crescimento populacional do dia.  
 
@@ -14,7 +30,7 @@ Este projeto é uma aplicação web desenvolvida em **Django** que exibe a popul
 
 ---
 
-## 🛠️ Tecnologias Utilizadas  
+## 🛠️ Tecnologias
 - **Python 3**  
 - **Django** (framework web)  
 - **Selenium** (para web scraping)  
@@ -68,13 +84,6 @@ Siga os passos abaixo para configurar o projeto:
 ## 💻 Uso  
 
 1. Acesse o sistema pelo navegador através do endereço http://127.0.0.1:8000/.
-
-2. Insira a URL do vídeo do YouTube no campo de texto fornecido.
-
-3. Escolha entre baixar o vídeo ou apenas o áudio.
-
-4. Clique no botão para iniciar o download.
-
 
  
 ## 🤝 Contribuição
