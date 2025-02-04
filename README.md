@@ -31,7 +31,6 @@ Antes de começar, você precisará ter instalado:
 
 ---
 
-## 💻 Uso  
 
 ## 1️⃣  Instalação
 Siga os passos abaixo para configurar o projeto:
@@ -66,7 +65,7 @@ Siga os passos abaixo para configurar o projeto:
 
 
  
-## Uso
+## 💻 Uso  
 
 1. Acesse o sistema pelo navegador através do endereço http://127.0.0.1:8000/.
 
@@ -78,7 +77,7 @@ Siga os passos abaixo para configurar o projeto:
 
 
  
-## Contribuição
+## 🤝 Contribuição
 Sinta-se à vontade para contribuir com este projeto. Siga estas etapas:
 
 1. Faça um fork do repositório.
@@ -96,3 +95,9 @@ Sinta-se à vontade para contribuir com este projeto. Siga estas etapas:
     ```
 
 4. Abra um Pull Request neste repositório.
+
+## 📜 Licença
+
+Este projeto é de código aberto e está licenciado sob a MIT License.
+
+📌 Desenvolvido com ❤️ por Alexandre Santos
