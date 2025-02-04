@@ -38,11 +38,4 @@ Antes de começar, você precisará ter instalado:
 git clone https://github.com/seu-usuario/Django-DadosPopulation.git
 cd Django-DadosPopulation
 
-### 2️⃣ Crie e ative o ambiente virtual  
-```bash
-python -m venv venv
-# Ativar no Windows
-venv\Scripts\activate
-# Ativar no Linux/Mac
-source venv/bin/activate
 
