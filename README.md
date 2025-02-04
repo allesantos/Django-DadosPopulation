@@ -1,6 +1,6 @@
 # 🌍 Django - População Mundial em Tempo Real
 
-<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-population/population.png">
+<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-population/population0.png">
 
 ---
 
@@ -84,6 +84,8 @@ Siga os passos abaixo para configurar o projeto:
 ## 💻 Uso  
 
 1. Acesse o sistema pelo navegador através do endereço http://127.0.0.1:8000/.
+
+<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-population/population.png">
 
  
 ## 🤝 Contribuição
