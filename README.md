@@ -4,18 +4,6 @@
 
 ---
 
-## 📌 Índice
-- [Descrição](#Descrição)
-- [Recursos](#Recursos)
-- [Tecnologias Utilizadas](#Tecnologias)
-- [Pré-requisitos](#Pré-requisitos)
-- [Instalação](#Instalação)
-- [Uso](#Uso)
-- [Contribuição](#Contribuição)
-- [Licença](#Licença)
-
----
-
 ## 📌 Descrição  
 Este projeto é uma aplicação web desenvolvida em **Django** que exibe a população mundial em tempo real. Ele coleta dados diretamente do site **Worldometer**, utilizando **Selenium** para web scraping, e exibe estatísticas como população atual, nascimentos, mortes e crescimento populacional do dia.  
 
@@ -38,7 +26,7 @@ Este projeto é uma aplicação web desenvolvida em **Django** que exibe a popul
 
 ---
 
-✅ ## Pré-requisitos  
+## ✅ Pré-requisitos  
 Antes de começar, você precisará ter instalado:  
 - **Python 3.x**  
 - **pip** (gerenciador de pacotes do Python)  
