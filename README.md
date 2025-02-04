@@ -38,7 +38,7 @@ Este projeto é uma aplicação web desenvolvida em **Django** que exibe a popul
 
 ---
 
-## ✅ Pré-requisitos  
+✅ ## Pré-requisitos  
 Antes de começar, você precisará ter instalado:  
 - **Python 3.x**  
 - **pip** (gerenciador de pacotes do Python)  
