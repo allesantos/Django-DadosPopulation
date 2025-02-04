@@ -19,8 +19,6 @@ Este projeto é uma aplicação web desenvolvida em **Django** que exibe a popul
 - **Django** (framework web)  
 - **Selenium** (para web scraping)  
 - **HTML, CSS e JavaScript** (para frontend)  
-- **Bootstrap** (para estilização da interface)  
-- **SQLite** (banco de dados padrão do Django)  
 
 ---
 
