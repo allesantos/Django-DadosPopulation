@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>População Mundial em Tempo Real</title>
+
+    <!-- Importação da fonte Poppins do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background-color: #121212; /* Fundo escuro para um design moderno */
+            color: #ffffff;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+    
+        /* Estilização do container principal */
+        .container {
+            background: linear-gradient(135deg, #1e1e1e, #292929); /* Degradê moderno */
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
+            display: inline-block;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            max-width: 400px;
+            width: 100%;
+        }
+    
+        /* Efeito de hover para o container */
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+    
+        /* Estilização dos textos */
+        p {
+            font-size: 18px;
+            margin: 15px 0;
+            font-weight: 400;
+        }
+    
+        /* Destaque para os números */
+        .highlight {
+            font-weight: 700;
+            font-size: 22px;
+            color: #00ffcc; /* Cor vibrante para destaque */
+        }
+    
+        /* Estilização para mensagem de erro */
+        #error {
+            color: #ff4d4d;
+            font-size: 16px;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+    
+    </style>
+
+    <script>
+        // Função para buscar os dados da API e atualizar na tela
+        async function updateData() {
+            try {
+                let response = await fetch('/get-data/'); // Chama a API Django
+                let data = await response.json();
+
+                if (data.error) {
+                    // Exibe mensagem de erro caso haja falha na requisição
+                    document.getElementById('error').innerText = "Erro ao obter dados!";
+                } else {
+                    // Atualiza os valores na página
+                    document.getElementById('population').innerText = data.population;
+                    document.getElementById('birth_today').innerText = data.birth_today;
+                    document.getElementById('deaths_today').innerText = data.deaths_today;
+                    document.getElementById('growth_today').innerText = data.growth_today;
+                }
+            } catch (error) {
+                // Exibe erro caso não consiga conectar à API
+                document.getElementById('error').innerText = "Erro na conexão!";
+            }
+        }
+
+        // Executa a atualização dos dados ao carregar a página e a cada 5 segundos
+        document.addEventListener("DOMContentLoaded", function() {
+            updateData();
+            setInterval(updateData, 5000); // Atualiza os dados a cada 5 segundos
+        });
+    </script>
+</head>
+<body>
+
+    <h1>🌍 População Mundial em Tempo Real 🌍</h1>
+
+    <div class="container">
+        <!-- Exibição dos dados com placeholders para atualização -->
+        <p>📊 População Atual: <span class="highlight" id="population">Carregando...</span></p>
+        <p>👶 Nascimentos Hoje: <span class="highlight" id="birth_today">Carregando...</span></p>
+        <p>⚰️ Mortes Hoje: <span class="highlight" id="deaths_today">Carregando...</span></p>
+        <p>📈 Crescimento Populacional Hoje: <span class="highlight" id="growth_today">Carregando...</span></p>
+        <p id="error" style="color: red;"></p> <!-- Mensagem de erro caso a API falhe -->
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Configuração do IDE
+.vscode/
+
+# Logs e banco de dados local
+*.log
+db.sqlite3
+
+# Selenium e WebDriverManager
+.chromedriver/
