@@ -1,6 +1,6 @@
 # 🌍 População Mundial em Tempo Real
 
-<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-population/population01.png">
+<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-population/population02.png">
 
 ---
 
