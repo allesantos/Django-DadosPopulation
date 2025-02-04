@@ -1,4 +1,4 @@
-# 🌍 Django - População Mundial em Tempo Real
+# 🌍 População Mundial em Tempo Real
 
 <img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-population/population1.png">
 
