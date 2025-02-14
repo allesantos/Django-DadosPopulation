@@ -30,7 +30,7 @@ Este projeto é uma aplicação web desenvolvida em **Django** que exibe a popul
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠 Tecnologias
 - **Python 3**  
 - **Django** (framework web)  
 - **Selenium** (para web scraping)  
@@ -48,7 +48,7 @@ Antes de começar, você precisará ter instalado:
 ---
 
 
-## 1️⃣  Instalação
+## 💾 Instalação
 Siga os passos abaixo para configurar o projeto:
 
 1. Clone o repositório para sua máquina local:
